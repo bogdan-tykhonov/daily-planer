@@ -1,0 +1,26 @@
+{
+  "name": "planer_react",
+  "version": "1.0.0",
+  "description": "planer project",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.0",
+    "http-proxy-middleware": "^1.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start --prefix planer",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run start\""
+  },
+  "author": "Bogdan",
+  "license": "ISC"
+}
